@@ -69,6 +69,13 @@ export const SKILL_GROUPS: SkillGroup[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 'portfolio',
+    title: 'Developer Portfolio',
+    descKey: 'work.projects.portfolio',
+    tech: ['React', 'CRA', 'styled-components', 'React Router', 'GitHub API'],
+    url: 'https://xodjayev.uz/',
+  },
+  {
     id: 'appgraph',
     title: 'AppGraph',
     descKey: 'work.projects.appgraph',

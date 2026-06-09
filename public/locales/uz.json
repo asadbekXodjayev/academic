@@ -76,6 +76,7 @@
     "section_label": "Loyihalar",
     "live": "Ko'rish",
     "projects": {
+      "portfolio": "Shaxsiy dasturchi portfoliosi — GitHub API integratsiyasi, ko'nikma vizualizatsiyasi va 20+ loyiha bo'yicha kategoriya filtrlash bilan interaktiv loyiha panjara.",
       "appgraph": "Barcha 19 ta ilovaning arxitekturasini bitta markazda — interaktiv fayl daraxtlari, ELK bilan zonalangan tizim topologiyalari va oqim diagrammalari, Obsidian uslubida.",
       "sarbon": "Ko'p tilli UI (EN/RU/UZ), API-asosli kontent va Zustand bilan Feature-Sliced Design arxitekturasiga ega ishlab chiqarish logistika platformasi.",
       "splay": "D-pad fazoviy navigatsiya, aylanadigan kontent qatorlari va asosiy banner bilan Smart-TV streaming interfeysi.",
