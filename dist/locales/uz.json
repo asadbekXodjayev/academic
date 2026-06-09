@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "Haqida",
+    "academic": "Akademik",
+    "skills": "Ko'nikmalar",
+    "work": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "role": "Front-end Muhandis · Magistraturaga Nomzod",
+    "tagline": "Webster Universitetida Kompyuter Fanlari talabasiман, AI/ML sohasida magistratura va doktorantura uchun tayyorlanmoqdaman. React bo'yicha ishlab chiqarish darajasidagi tajriba va deep learning, kompyuter ko'rishi hamda LLM tizimlarida amaliy tadqiqotlar.",
+    "location": "Toshkent, O'zbekiston",
+    "cta_work": "Tanlangan Loyihalar",
+    "cta_contact": "Bog'lanish"
+  },
+  "about": {
+    "heading": "Haqida",
+    "section_label": "Profil",
+    "pull_quote": "Tadqiqot fikri bilan ishlab chiqarish muhandisi — frontend mahorati va amaliy AI kesishmasida qurayapman.",
+    "bio_1": "Men Toshkentdagi Webster Universitetida Kompyuter Fanlari talabisiman, front-end muhandisligida ishlab chiqarish darajasidagi tajribaga va AI/ML sohasida o'sib borayotgan tadqiqot yo'nalishiga egaman. Nativ C++ va C# tizimlaridagi asosim har bir qatlamda ishlash, xotira va arxitektura haqida mulohaza yuritish usulimni shakllantiradi.",
+    "bio_2": "Men mashina o'qitish va AI tizimlariga ixtisoslashgan Kompyuter Fanlari bo'yicha magistraturada o'qishga tayyorlanmoqdaman. Kompyuter ko'rishi, neyron tarmoqlar, NLP va to'liq stek AI integratsiyasini qamrab olgan amaliy loyihalarim magistratura va doktorantura darajasida rivojlantirishni niyat qilgan tadqiqot yo'nalishlarini aks ettiradi.",
+    "meta_location": "Joylashuv",
+    "meta_location_value": "O'zbekiston",
+    "meta_institution": "Muassasa",
+    "meta_institution_value": "Webster Universiteti, Toshkent",
+    "meta_goal": "Akademik Maqsad",
+    "meta_goal_value": "Magistratura + PhD, CS / AI",
+    "meta_exp": "Sanoat Tajribasi",
+    "meta_exp_value": "4+ yil"
+  },
+  "academic": {
+    "heading": "Akademik Profil",
+    "section_label": "Ta'lim va Tadqiqot",
+    "objective_label": "Magistratura Maqsadi",
+    "objective": "Sun'iy intellekt va mashina o'qitishiga ixtisoslashgan Kompyuter Fanlari bo'yicha magistratura va doktorantura dasturiga qabul qilinishga intilyapman. Tadqiqot qiziqishlarim deep learning tizimlari, kompyuter ko'rishi va katta til modellarini real dunyo ilovalariga amaliy integratsiyaga qaratilgan. Maqsadim nazariy ML va ishlab chiqarish darajasidagi AI tizimlari o'rtasidagi bo'shliqni to'ldiruvchi original tadqiqot olib borish.",
+    "education_label": "Ta'lim",
+    "relevant_courses": "Tegishli Fanlar",
+    "research_label": "Tadqiqot Qiziqishlari",
+    "gpa": "O'rtacha Ball",
+    "credits": "Bajarilgan Kreditlar",
+    "expected_grad": "Kutilayotgan Bitirish"
+  },
+  "skills": {
+    "heading": "Texnik Malakalar",
+    "section_label": "Qobiliyatlar",
+    "languages": "Tillar",
+    "frontend": "Front-end",
+    "mobile": "Mobil",
+    "ai_ml": "AI / ML",
+    "backend": "Back-end",
+    "tooling": "Asboblar"
+  },
+  "work": {
+    "heading": "Tanlangan Loyihalar",
+    "section_label": "Loyihalar",
+    "live": "Ko'rish",
+    "projects": {
+      "appgraph": "Barcha 19 ta ilovaning arxitekturasini bitta markazda — interaktiv fayl daraxtlari, ELK bilan zonalangan tizim topologiyalari va oqim diagrammalari, Obsidian uslubida.",
+      "sarbon": "Ko'p tilli UI (EN/RU/UZ), API-asosli kontent va Zustand bilan Feature-Sliced Design arxitekturasiga ega ishlab chiqarish logistika platformasi.",
+      "splay": "D-pad fazoviy navigatsiya, aylanadigan kontent qatorlari va asosiy banner bilan Smart-TV streaming interfeysi.",
+      "nova": "Feature-Sliced Design asosidagi e-commerce vitrinasi — mahsulot katalogi, savat va Zustand bilan global holat, REST API ma'lumotlari.",
+      "facescan": "Real vaqtli biometrik terminal: veb-kamera oqimi yosh, jins, his-tuyg'ular va yuz belgilari uchun tahlil. React + TypeScript + Zustand, FastAPI + DeepFace + OpenCV ustida.",
+      "steel": "Fitnes mashg'ulot rejalaychi — sxemalar yarating, yondashuvlar kuzating, dasturlarni saqlang.",
+      "chess": "PyTorch neyron tarmog'i (500K+ parametr) bilan minimax alfa-beta kesish mexanizmi. Chess.com uslubidagi React UI, FastAPI backend.",
+      "digit": "PyTorch MNIST CNN bilan qo'lda yozilgan raqam tanish, FastAPI orqali real vaqt bashorati bilan React canvas.",
+      "realestate": "scikit-learn gradient boosting (R² ~0.92) bilan mulk narxini bashorat, FastAPI API. Jonli slayderlar bilan React + Vite UI.",
+      "airecipe": "OpenAI API yordamida AI retsept generatori — ingredientlar kiriting, tuzilgan retsept oling.",
+      "type": "Tasodifiy so'zlarda WPM va aniqlikni o'lchaydigan yozish tezligi o'yini.",
+      "data": "Saralash va yo'l topish algoritmlari vizuallashtiruvchi — quicksort, Dijkstra, A* bosqichma-bosqich.",
+      "devmood": "Dasturchilar uchun AI dizayn tizimi generatori — loyiha tavsifini kiriting, dizayn tokenlar, komponent takliflari va rang palitrasini oling.",
+      "moglobetrucking": "AQSh yuk tashish va logistika kompaniyasi uchun marketing sayti — xizmatlar, flot va aloqa shakli.",
+      "artcodex": "Silliq canvas o'tishlari va tanlangan asarlar bilan animatsiyali raqamli san'at galereyasi.",
+      "davinci": "Leonardo da Vinchi haqida interaktiv raqamli qo'lyozma — arxiv tasvirlari bilan scroll-asosli rivoyat.",
+      "space": "Tab navigatsiya va animatsiyali o'tishlar bilan ko'p sahifali kosmik turizm kontsept sayti.",
+      "spotify": "Spotify Web API orqali eng yaxshi ijrochilar, treklar va tinglash statistikasi dashboard.",
+      "imposter": "3-12 o'yinchi uchun pass-and-play so'z o'yini, tasodifiy rol taqsimlash va o'yin mantig'i bilan.",
+      "school": "Onlayn maktab landing — kurslar katalogi, ro'yxatdan o'tish shakli va o'qituvchilar profili.",
+      "yun": "Tattoo studiyasi marketing sayti — rassomlar galereyalari, xizmatlar va bron uchun aloqa shakli. Ko'p tilli (EN/RU)."
+    }
+  },
+  "work_more": "Ko'proq yuklash",
+  "timeline": {
+    "heading": "Karera Yo'li",
+    "section_label": "Xronologiya",
+    "item_0_year": "2021",
+    "item_0_title": "Nativ Dasturiy Ta'minot",
+    "item_0_desc": "C++ va C# Windows Forms dasturlari. Dasturiy ta'minot arxitekturasi va past darajadagi ishlashni fundamental tushunish.",
+    "item_1_year": "2022",
+    "item_1_title": "Vebga O'tish va Universitet",
+    "item_1_desc": "Webster Universitetiga qabul. JavaScript, React va rasmiy Kompyuter Fanlari fanlari bilan parallel chuqur o'rganish.",
+    "item_2_year": "2023 – 2024",
+    "item_2_title": "Ishlab Chiqarish Front-end Muhandisligi",
+    "item_2_desc": "Logistika platformalari, e-commerce vitrinalar va Smart-TV streaming ilovasini yaratish. TypeScript, Next.js, Feature-Sliced Design, Zustand va i18n standart amaliyotga aylandi.",
+    "item_3_year": "2025 – Hozir",
+    "item_3_title": "Amaliy AI/ML Tadqiqotlari",
+    "item_3_desc": "AI-integratsiyalangan tizimlar: biometrik terminallar, neyron shaxmat mexanizmlari, raqam klassifikatorlari va LLM ilovalar. CS / AI da magistratura tadqiqot taklifini tayyorlash."
+  },
+  "rec": {
+    "heading": "Tavsiyalar",
+    "section_label": "Akademik Manbalar",
+    "view_letter": "Maktubni Ko'rish",
+    "course": "Fan",
+    "semester": "Semestr"
+  },
+  "contact": {
+    "heading": "Aloqa",
+    "section_label": "Bog'lanish",
+    "intro": "Front-end muhandislik rollari, magistraturaga qabul so'rovlari va AI/ML tadqiqot hamkorlik uchun ochiq.",
+    "email_label": "Elektron pochta",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram"
+  },
+  "footer": {
+    "built": "Asadbek Xodjayev tomonidan yaratildi",
+    "year": "2025"
+  }
+}
