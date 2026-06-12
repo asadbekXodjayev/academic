@@ -76,6 +76,8 @@
     "section_label": "Loyihalar",
     "live": "Ko'rish",
     "projects": {
+      "interactiveWorks": "3D ishlar galereyasi — kamera loyiha kartochkalari bilan qoplangan WebGL sfera ichida: inersiyali aylantirish, maxsus linza-distorsiya sheyderi, ro'yxat rejimi, filtrlar va to'g'ridan-to'g'ri havolali loyiha sahifalari.",
+      "codexLuminara": "Uyg'onish davriga portal — o'n uchta jamoat mulki bo'lgan durdona asar WebGL sfera ichida: zarhal romlar, bezatilgan folio sahifalar, davr filtrlari va past ovozli klassik musiqa.",
       "portfolio": "Shaxsiy dasturchi portfoliosi — GitHub API integratsiyasi, ko'nikma vizualizatsiyasi va 20+ loyiha bo'yicha kategoriya filtrlash bilan interaktiv loyiha panjara.",
       "appgraph": "Barcha 19 ta ilovaning arxitekturasini bitta markazda — interaktiv fayl daraxtlari, ELK bilan zonalangan tizim topologiyalari va oqim diagrammalari, Obsidian uslubida.",
       "sarbon": "Ko'p tilli UI (EN/RU/UZ), API-asosli kontent va Zustand bilan Feature-Sliced Design arxitekturasiga ega ishlab chiqarish logistika platformasi.",

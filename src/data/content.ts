@@ -69,6 +69,20 @@ export const SKILL_GROUPS: SkillGroup[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 'interactive-works',
+    title: 'Interactive Works — Sphere Gallery',
+    descKey: 'work.projects.interactiveWorks',
+    tech: ['Three.js', 'GSAP', 'TypeScript', 'WebGL', 'GLSL'],
+    url: 'https://github.com/asadbekXodjayev/interactive-works',
+  },
+  {
+    id: 'codex-luminara',
+    title: 'Codex Luminara — 3D Art Gallery',
+    descKey: 'work.projects.codexLuminara',
+    tech: ['Three.js', 'GSAP', 'TypeScript', 'WebGL', 'Web Audio'],
+    url: 'https://github.com/asadbekXodjayev/art-ThreeJs',
+  },
+  {
     id: 'portfolio',
     title: 'Developer Portfolio',
     descKey: 'work.projects.portfolio',
