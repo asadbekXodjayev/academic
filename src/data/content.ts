@@ -19,6 +19,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
     skills: [
       { name: 'React', level: 99 },
       { name: 'Next.js', level: 95 },
+      { name: 'Three.js', level: 84 },
       { name: 'Framer Motion', level: 90 },
       { name: 'styled-components', level: 100 },
       { name: 'Tailwind CSS', level: 88 },
@@ -95,6 +96,34 @@ export const PROJECTS: Project[] = [
     descKey: 'work.projects.appgraph',
     tech: ['Next.js', 'TypeScript', 'ELK.js', 'D3', 'SVG'],
     url: 'https://sys.xodjayev.uz/',
+  },
+  {
+    id: 'void',
+    title: 'VOID — Grimoire of the Dead',
+    descKey: 'work.projects.void',
+    tech: ['Three.js', 'GSAP', 'Lenis', 'WebGL', 'GLSL'],
+    url: 'https://void.xodjayev.uz/',
+  },
+  {
+    id: 'cosmic',
+    title: 'COSMIC — Atlas of Extreme Objects',
+    descKey: 'work.projects.cosmic',
+    tech: ['Three.js', 'GSAP', 'Lenis', 'WebGL', 'GLSL'],
+    url: 'https://cosmic.xodjayev.uz/',
+  },
+  {
+    id: 'aeternum',
+    title: 'AETERNUM — Memento Mori',
+    descKey: 'work.projects.aeternum',
+    tech: ['Three.js', 'GSAP', 'Lenis', 'WebGL', 'GLSL'],
+    url: 'https://3js.xodjayev.uz/',
+  },
+  {
+    id: 'cargolink',
+    title: 'CargoLink — Freight Marketplace',
+    descKey: 'work.projects.cargolink',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Zustand', 'i18n'],
+    url: 'https://cargo.xodjayev.uz/',
   },
   {
     id: 'sarbon',
