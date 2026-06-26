@@ -126,6 +126,13 @@ export const PROJECTS: Project[] = [
     url: 'https://cargo.xodjayev.uz/',
   },
   {
+    id: 'ctm',
+    title: 'Central Trade Market (CTM)',
+    descKey: 'work.projects.ctm',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Zustand', 'i18n'],
+    url: 'https://centraltrademarket.com/',
+  },
+  {
     id: 'vantage',
     title: 'VANTAGE — 3D Car Walkaround',
     descKey: 'work.projects.vantage',
@@ -166,6 +173,13 @@ export const PROJECTS: Project[] = [
     descKey: 'work.projects.endlessDrive',
     tech: ['Three.js', 'WebGL', 'Procedural', 'Web Audio'],
     url: 'https://game.xodjayev.uz/',
+  },
+  {
+    id: 'backrooms',
+    title: 'The Backrooms',
+    descKey: 'work.projects.backrooms',
+    tech: ['Three.js', 'WebGL', 'GLSL', 'Procedural', 'Web Audio'],
+    url: 'https://backrooms.xodjayev.uz/',
   },
   {
     id: 'sarbon',
