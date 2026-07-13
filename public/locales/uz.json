@@ -111,7 +111,11 @@
       "spotify": "Spotify Web API orqali eng yaxshi ijrochilar, treklar va tinglash statistikasi dashboard.",
       "imposter": "3-12 o'yinchi uchun pass-and-play so'z o'yini, tasodifiy rol taqsimlash va o'yin mantig'i bilan.",
       "school": "Onlayn maktab landing — kurslar katalogi, ro'yxatdan o'tish shakli va o'qituvchilar profili.",
-      "yun": "Tattoo studiyasi marketing sayti — rassomlar galereyalari, xizmatlar va bron uchun aloqa shakli. Ko'p tilli (EN/RU)."
+      "yun": "Tattoo studiyasi marketing sayti — rassomlar galereyalari, xizmatlar va bron uchun aloqa shakli. Ko'p tilli (EN/RU).",
+      "corvette": "Chevrolet Corvette haqida 3D skroll-hikoya — haqiqiy GLB modellari GSAP kamera harakatlari, kinematografik yorug'lik va ovoz bilan bosqichma-bosqich ochiladi.",
+      "flowers": "Gul do'koni vitrinasi («Vesna») — katalog, sun'iy intellekt yordamida buket tanlash, savat va buyurtma, Figma maketi asosida. Uch tilli (RU/EN/UZ).",
+      "shajara": "Interaktiv shajara (nasab daraxti) — shoxlarni ochish va yig'ish, ism bo'yicha qidiruv, PNG va JSON eksporti, avtorizatsiya va bir nechta daraxtlar Node backend ustida.",
+      "graphforge": "Universal plaginli birgalikda ishlash diagramma muharriri — blok-sxemalar, holat mashinalari va tarmoq grafiklari SVG maydonida, Yjs realtime hamkorlik va dagre/ELK/d3-force avto-joylashuvi bilan. Next.js + NestJS."
     }
   },
   "work_more": "Ko'proq yuklash",

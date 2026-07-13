@@ -111,7 +111,11 @@
       "spotify": "Spotify dashboard displaying a user's top artists, top tracks, and listening statistics via the Spotify Web API.",
       "imposter": "Pass-and-play party word game for 3–12 players, fully client-side with randomised role assignment and game logic.",
       "school": "Landing site for an online school — course catalogue, enrolment flow, and instructor profiles.",
-      "yun": "Marketing site for a tattoo studio — artist galleries, service listings, and a contact flow for bookings. Multi-language (EN/RU)."
+      "yun": "Marketing site for a tattoo studio — artist galleries, service listings, and a contact flow for bookings. Multi-language (EN/RU).",
+      "corvette": "A scroll-driven 3D storytelling experience for the Chevrolet Corvette — real GLB car models revealed act by act with GSAP-timed camera moves, cinematic lighting and audio.",
+      "flowers": "Boutique florist storefront (\"Vesna\") — product catalog, an AI-assisted bouquet finder, cart and checkout, built from a Figma design with triple-language i18n (RU/EN/UZ).",
+      "shajara": "Interactive family-tree (shajara) builder — expand and collapse branches, search relatives by name, export the tree to PNG or JSON, with authentication and multiple family trees over a Node backend.",
+      "graphforge": "Universal, plugin-based collaborative diagram editor — draw flowcharts, state machines and network graphs on an SVG canvas with real-time Yjs collaboration and dagre/ELK/d3-force auto-layout. Next.js + NestJS."
     }
   },
   "work_more": "Load More",
