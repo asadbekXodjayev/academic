@@ -34,7 +34,7 @@ export default function Timeline() {
       <div className="container">
         <div className="section__meta">
           <span className="section__label">{t('timeline.section_label')}</span>
-          <span className="section__index" aria-hidden="true">05</span>
+          <span className="section__index" aria-hidden="true">06</span>
         </div>
         <h2 id="timeline-heading" className="section__heading">{t('timeline.heading')}</h2>
 
@@ -44,7 +44,7 @@ export default function Timeline() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-8%' }}
-          aria-label="Career timeline"
+          aria-label={t('timeline.heading')}
         >
           {indices.map((i) => (
             <motion.li key={i} className="timeline__item" variants={itemVariant}>

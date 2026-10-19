@@ -33,7 +33,7 @@ export default function Skills() {
       <div className="container">
         <div className="section__meta">
           <span className="section__label">{t('skills.section_label')}</span>
-          <span className="section__index" aria-hidden="true">03</span>
+          <span className="section__index" aria-hidden="true">04</span>
         </div>
         <h2 id="skills-heading" className="section__heading">{t('skills.heading')}</h2>
 

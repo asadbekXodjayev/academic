@@ -2,6 +2,7 @@ import { MotionConfig } from 'motion/react'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
+import Research from './components/Research'
 import Academic from './components/Academic'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
@@ -17,6 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Research />
         <Academic />
         <Skills />
         <Projects />

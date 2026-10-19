@@ -2,16 +2,18 @@ import { Fragment, useEffect, useState } from 'react'
 import { motion, useScroll } from 'motion/react'
 import { useTranslation } from 'react-i18next'
 import { useAppStore } from '../store/useAppStore'
-import { SUPPORTED_LANGS, type Lang } from '../i18n'
+import { DEFAULT_LANG, SUPPORTED_LANGS, isValidLang, type Lang } from '../i18n'
+import { CV_PATH } from '../data/content'
 
-const NAV_LINKS = ['about', 'academic', 'skills', 'work', 'contact'] as const
+const NAV_LINKS = ['about', 'research', 'academic', 'skills', 'work', 'contact'] as const
 
 export default function Nav() {
   const { t, i18n } = useTranslation()
-  const lang = useAppStore((s) => s.lang)
   const setLang = useAppStore((s) => s.setLang)
   const [scrolled, setScrolled] = useState(false)
   const { scrollY } = useScroll()
+  // Highlight the language i18next is actually rendering, not a separately persisted default
+  const lang: Lang = isValidLang(i18n.resolvedLanguage) ? i18n.resolvedLanguage : DEFAULT_LANG
 
   useEffect(() => {
     return scrollY.on('change', (y) => setScrolled(y > 24))
@@ -41,6 +43,15 @@ export default function Nav() {
               {t(`nav.${key}`)}
             </a>
           ))}
+          <a
+            href={CV_PATH}
+            className="nav__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${t('nav.cv')} — PDF, opens in new tab`}
+          >
+            {t('nav.cv')}
+          </a>
         </nav>
 
         <div className="nav__lang" role="group" aria-label="Language selector">

@@ -1,6 +1,6 @@
 import { motion, type Variants } from 'motion/react'
 import { useTranslation } from 'react-i18next'
-import { SOCIAL_LINKS } from '../data/content'
+import { CV_PATH, SOCIAL_LINKS } from '../data/content'
 
 const container: Variants = {
   hidden: {},
@@ -46,11 +46,21 @@ export default function Hero() {
             <p className="hero__role">{t('hero.role')}</p>
             <p className="hero__tagline">{t('hero.tagline')}</p>
             <div className="hero__links">
-              <a href="#work" className="hero__cta" aria-label={t('hero.cta_work')}>
+              <a href="#research" className="hero__cta">
                 <span className="hero__cta-arrow" aria-hidden="true">&#x2192;</span>
-                {t('hero.cta_work')}
+                {t('hero.cta_research')}
               </a>
-              <a href="#contact" className="hero__cta" aria-label={t('hero.cta_contact')}>
+              <a
+                href={CV_PATH}
+                className="hero__cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${t('hero.cta_cv')} — PDF, opens in new tab`}
+              >
+                <span className="hero__cta-arrow" aria-hidden="true">&#x2193;</span>
+                {t('hero.cta_cv')}
+              </a>
+              <a href="#contact" className="hero__cta">
                 <span className="hero__cta-arrow" aria-hidden="true">&#x2192;</span>
                 {t('hero.cta_contact')}
               </a>

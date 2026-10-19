@@ -19,9 +19,11 @@ const itemVariant: Variants = {
 }
 
 function CourseRow({ course }: { course: CourseRecord }) {
+  const { t } = useTranslation()
   return (
     <li className="cw-row">
       <span className="cw-row__name">{course.name}</span>
+      {course.pending && <span className="cw-row__status">{t('academic.in_progress')}</span>}
     </li>
   )
 }
@@ -33,7 +35,7 @@ export default function Academic() {
   return (
     <motion.section
       id="academic"
-      className="section section--alt"
+      className="section"
       variants={sectionVariant}
       initial="hidden"
       whileInView="visible"
@@ -43,7 +45,7 @@ export default function Academic() {
       <div className="container">
         <div className="section__meta">
           <span className="section__label">{t('academic.section_label')}</span>
-          <span className="section__index" aria-hidden="true">02</span>
+          <span className="section__index" aria-hidden="true">03</span>
         </div>
         <h2 id="academic-heading" className="section__heading">{t('academic.heading')}</h2>
 
@@ -78,8 +80,8 @@ export default function Academic() {
                     <dd className="edu-card__stat-value">{edu.gpa}</dd>
                   </div>
                   <div className="edu-card__stat">
-                    <dt className="edu-card__stat-label">{t('academic.credits')}</dt>
-                    <dd className="edu-card__stat-value">{edu.credits}</dd>
+                    <dt className="edu-card__stat-label">{t('academic.cs_gpa')}</dt>
+                    <dd className="edu-card__stat-value">{edu.csGpa}</dd>
                   </div>
                   <div className="edu-card__stat">
                     <dt className="edu-card__stat-label">{t('academic.expected_grad')}</dt>

@@ -37,45 +37,48 @@ export default function Projects() {
       <div className="container">
         <div className="section__meta">
           <span className="section__label">{t('work.section_label')}</span>
-          <span className="section__index" aria-hidden="true">04</span>
+          <span className="section__index" aria-hidden="true">05</span>
         </div>
         <h2 id="work-heading" className="section__heading">{t('work.heading')}</h2>
 
         <div className="work__grid" role="list">
           <AnimatePresence initial={false}>
-            {shown.map((project, i) => (
-              <motion.article
-                key={project.id}
-                className="project-card"
-                variants={cardItem}
-                initial="hidden"
-                animate="visible"
-                exit={{ opacity: 0 }}
-                role="listitem"
-                layout
-              >
-                <span className="project-card__num" aria-hidden="true">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <h3 className="project-card__title">{project.title}</h3>
-                <p className="project-card__desc">{t(project.descKey)}</p>
-                <ul className="project-card__tags" aria-label="Technologies used">
-                  {project.tech.map((tag) => (
-                    <li key={tag} className="project-card__tag">{tag}</li>
-                  ))}
-                </ul>
-                <a
-                  href={project.url}
-                  className="project-card__link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${t('work.live')} — ${project.title} (opens in new tab)`}
+            {shown.map((project, i) => {
+              const linkLabel = project.url.includes('github.com') ? t('work.source') : t('work.live')
+              return (
+                <motion.article
+                  key={project.id}
+                  className="project-card"
+                  variants={cardItem}
+                  initial="hidden"
+                  animate="visible"
+                  exit={{ opacity: 0 }}
+                  role="listitem"
+                  layout
                 >
-                  <span aria-hidden="true">&#x2192;</span>
-                  {t('work.live')}
-                </a>
-              </motion.article>
-            ))}
+                  <span className="project-card__num" aria-hidden="true">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <h3 className="project-card__title">{project.title}</h3>
+                  <p className="project-card__desc">{t(project.descKey)}</p>
+                  <ul className="project-card__tags" aria-label="Technologies used">
+                    {project.tech.map((tag) => (
+                      <li key={tag} className="project-card__tag">{tag}</li>
+                    ))}
+                  </ul>
+                  <a
+                    href={project.url}
+                    className="project-card__link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${linkLabel} — ${project.title} (opens in new tab)`}
+                  >
+                    <span aria-hidden="true">&#x2192;</span>
+                    {linkLabel}
+                  </a>
+                </motion.article>
+              )
+            })}
           </AnimatePresence>
         </div>
 

@@ -31,4 +31,9 @@ i18n
     },
   })
 
+// Keep <html lang> in sync so screen readers use the right pronunciation
+i18n.on('languageChanged', (lng) => {
+  document.documentElement.lang = lng
+})
+
 export default i18n

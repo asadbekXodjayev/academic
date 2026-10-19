@@ -1,6 +1,6 @@
 import { motion, type Variants } from 'motion/react'
 import { useTranslation } from 'react-i18next'
-import { EMAIL, SOCIAL_LINKS } from '../data/content'
+import { CV_PATH, EMAIL, SOCIAL_LINKS } from '../data/content'
 
 const sectionVariant: Variants = {
   hidden: { opacity: 0, y: 28 },
@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="section"
+      className="section section--alt"
       variants={sectionVariant}
       initial="hidden"
       whileInView="visible"
@@ -23,7 +23,7 @@ export default function Contact() {
       <div className="container">
         <div className="section__meta">
           <span className="section__label">{t('contact.section_label')}</span>
-          <span className="section__index" aria-hidden="true">07</span>
+          <span className="section__index" aria-hidden="true">08</span>
         </div>
         <h2 id="contact-heading" className="section__heading">{t('contact.heading')}</h2>
 
@@ -56,6 +56,16 @@ export default function Contact() {
                 <span className="contact__social-arrow" aria-hidden="true">&#x2197;</span>
               </a>
             ))}
+            <a
+              href={CV_PATH}
+              className="contact__social"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${t('contact.cv')} — opens in new tab`}
+            >
+              {t('contact.cv')}
+              <span className="contact__social-arrow" aria-hidden="true">&#x2197;</span>
+            </a>
           </nav>
         </div>
       </div>

@@ -28,7 +28,7 @@ export default function Recommendations() {
       <div className="container">
         <div className="section__meta">
           <span className="section__label">{t('rec.section_label')}</span>
-          <span className="section__index" aria-hidden="true">05</span>
+          <span className="section__index" aria-hidden="true">07</span>
         </div>
         <h2 id="rec-heading" className="section__heading">{t('rec.heading')}</h2>
 
@@ -44,17 +44,7 @@ export default function Recommendations() {
               aria-label={`Recommendation from ${rec.recommenderName}`}
             >
               <div className="rec-card__header">
-                <time className="rec-card__date" dateTime={rec.date}>{rec.date}</time>
-                <a
-                  href={rec.pdfPath}
-                  className="rec-card__pdf-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${t('rec.view_letter')} — PDF, opens in new tab`}
-                >
-                  <span aria-hidden="true">&#x21D7;</span>
-                  {t('rec.view_letter')}
-                </a>
+                <time className="rec-card__date" dateTime={rec.dateTime}>{rec.date}</time>
               </div>
 
               <blockquote className="rec-card__quote">
@@ -69,8 +59,6 @@ export default function Recommendations() {
                   <p className="rec-card__creds">{rec.credentials}</p>
                   <p className="rec-card__role">{rec.role}</p>
                   <p className="rec-card__institution">{rec.institution}</p>
-                  <p className="rec-card__address">{rec.address}</p>
-                  <p className="rec-card__contact">{rec.contact}</p>
                 </div>
                 <div className="rec-card__context" aria-label="Course context">
                   <div className="rec-card__context-item">
